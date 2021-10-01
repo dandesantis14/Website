@@ -5,11 +5,34 @@
 @media (prefers-color-scheme: light){
 .scheme {background: #fff; color: black ;}
 }
+@media (max-width: 800px) {
+    #container {
+      max-width: 100%;
+    }
+}
+@media (min-width: 800px) {
+    #container {
+        max-width: 800px;
+    }
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigator{
+ margin-left:15%;
+}
+
 body{
     
 }
 #titleBox{
-    margin-left: 20%;
+    font-size: xxx-large;
+    margin-top: 5rem;
 }
 #aboutBox{
 
