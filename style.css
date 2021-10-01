@@ -5,11 +5,13 @@
 @media (prefers-color-scheme: light){
 .scheme {background: #fff; color: black ;}
 }
+/*
 @media (max-width: 800px) {
     #container {
       max-width: 100%;
     }
 }
+*/
 @media (min-width: 800px) {
     #container {
         max-width: 800px;
@@ -22,7 +24,15 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+h1{
+    margin-bottom: 0;
+}
+nav{
+    display: block;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s; 
+}
 .navigator{
  margin-left:15%;
 }
@@ -30,16 +40,27 @@
 body{
     
 }
+
 #titleBox{
     font-size: xxx-large;
     margin-top: 5rem;
 }
-#aboutBox{
 
+#aboutBox{
+    display:none;
+    opacity:0;
+    transition-property: opacity;
+    transition-duration: 2s;
 }
 #resumeBox{
-
+    display:none;
+    opacity:0;
+    transition-property: opacity;
+    transition-duration: 1s;
 }
 #contactBox{
-
+    display:none;
+    opacity:0;
+    transition-property: opacity;
+    transition-duration: 1s;
 }
