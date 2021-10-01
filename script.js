@@ -1,4 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const submitButton = document.querySelector('button');
 
-document.querySelector("body").appendChild(h2);
+submitButton.addEventListener('click', function(){
+    submitButton.textContent = 'boo';
+});

@@ -1,9 +1,22 @@
-body {
-    background: blue;
-}
+
 @media (prefers-color-scheme: dark){
 .scheme { background: #333; color: #fff; }
 }
 @media (prefers-color-scheme: light){
 .scheme {background: #fff; color: black ;}
+}
+body{
+    
+}
+.titleBox{
+    margin-left: 20%;
+}
+#aboutBox{
+
+}
+#resumeBox{
+
+}
+#contactBox{
+
 }
