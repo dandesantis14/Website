@@ -23,10 +23,17 @@
     margin-top: 2.5rem;
     margin-left: auto;
     margin-right: auto;
+    position:relative;
+    height:75vh;
+}
+a {
+    color: #fff;
+    text-decoration: none;
 }
 h1{
     margin-bottom: 0;
 }
+
 nav{
     display: block;
     opacity: 0;
@@ -37,30 +44,32 @@ nav{
  margin-left:15%;
 }
 
-body{
-    
-}
-
 #titleBox{
     font-size: xxx-large;
     margin-top: 5rem;
 }
 
 #aboutBox{
-    display:none;
-    opacity:0;
+    display: block;
+    opacity: 0;
     transition-property: opacity;
     transition-duration: 2s;
+    position: absolute;
+    top: 25rem;
 }
 #resumeBox{
-    display:none;
-    opacity:0;
+    display: block;
+    opacity: 0;
     transition-property: opacity;
     transition-duration: 1s;
+    position: absolute;
+    top: 25rem;
 }
 #contactBox{
-    display:none;
-    opacity:0;
+    display: block;
+    opacity: 0;
     transition-property: opacity;
     transition-duration: 1s;
+    position: absolute;
+    top: 25rem;
 }
