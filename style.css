@@ -1,9 +1,11 @@
 
 @media (prefers-color-scheme: dark){
-.scheme { background: #333; color: #fff; }
+.scheme {background: #333; color: #fff; }
+a{color:#fff;}
 }
 @media (prefers-color-scheme: light){
 .scheme {background: #fff; color: black ;}
+a {color: black;}
 }
 /*
 @media (max-width: 800px) {
@@ -27,7 +29,6 @@
     height:75vh;
 }
 a {
-    color: #fff;
     text-decoration: none;
 }
 h1{
