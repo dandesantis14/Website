@@ -55,7 +55,7 @@ nav{
     transition-property: opacity;
     transition-duration: 2s;
     position: absolute;
-    top: 25rem;
+    top: 20rem;
 }
 #resumeBox{
     display: block;
@@ -63,7 +63,7 @@ nav{
     transition-property: opacity;
     transition-duration: 1s;
     position: absolute;
-    top: 25rem;
+    top: 20rem;
 }
 #contactBox{
     display: block;
@@ -71,5 +71,10 @@ nav{
     transition-property: opacity;
     transition-duration: 1s;
     position: absolute;
-    top: 25rem;
+    top: 20rem;
+}
+object {
+    position: relative;
+    width: 20rem;
+    height: 26rem;
 }
