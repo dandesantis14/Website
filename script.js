@@ -22,15 +22,13 @@ const resumeBoxVisibility = document.getElementById('resumeLink');
 const resumeBox = document.getElementById('resumeBox');
 const contactBoxVisibility = document.getElementById('contactLink');
 const contactBox = document.getElementById('contactBox');
+const titleBoxVisibility = document.getElementById('nameLink');
 
-const aboutStyle = window.getComputedStyle(aboutBox);
-const aboutOpacity = aboutStyle.getPropertyValue('opacity');
-
-//const resumeStyle = window.getComputedStyle(resumeBox);
-//const resumeOpacity = resumeStyle.getPropertyValue('opacity');
-
-//const contactStyle = window.getComputedStyle(contactBox);
-//const contactOpacity = contactStyle.getPropertyValue('opacity');
+titleBoxVisibility.addEventListener('click',function(){
+    aboutBox.style.opacity = 0;
+    resumeBox.style.opacity = 0;
+    contactBox.style.opacity = 0;
+})
 
 aboutBoxVisibility.addEventListener('click',function(){
 

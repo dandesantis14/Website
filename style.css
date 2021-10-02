@@ -7,7 +7,7 @@ a{color:#fff;}
 .scheme {background: #fff; color: black ;}
 a {color: black;}
 }
-/*
+/* This is to help with scaling to smaller screen sizes
 @media (max-width: 800px) {
     #container {
       max-width: 100%;
@@ -30,6 +30,7 @@ a {color: black;}
 }
 a {
     text-decoration: none;
+    font-size: x-large;
 }
 h1{
     margin-bottom: 0;
@@ -42,7 +43,7 @@ nav{
     transition-duration: 1s; 
 }
 .navigator{
- margin-left:15%;
+ margin-left:13.5%;
 }
 
 #titleBox{
@@ -56,7 +57,7 @@ nav{
     transition-property: opacity;
     transition-duration: 2s;
     position: absolute;
-    top: 20rem;
+    top: 17rem;
 }
 #resumeBox{
     display: block;
@@ -64,7 +65,7 @@ nav{
     transition-property: opacity;
     transition-duration: 1s;
     position: absolute;
-    top: 20rem;
+    top: 17rem;
 }
 #contactBox{
     display: block;
@@ -72,10 +73,14 @@ nav{
     transition-property: opacity;
     transition-duration: 1s;
     position: absolute;
-    top: 20rem;
+    top: 17rem;
 }
 object {
     position: relative;
-    width: 20rem;
-    height: 26rem;
+    width: 750px;
+    height: 750px;
+}
+p {
+    margin: auto;
+    font-size: larger;
 }
