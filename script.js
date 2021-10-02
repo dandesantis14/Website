@@ -24,19 +24,24 @@ const contactBoxVisibility = document.getElementById('contactLink');
 const contactBox = document.getElementById('contactBox');
 
 aboutBoxVisibility.addEventListener('click',function(){
+    if(resumeBox.style.opacity === '0' && contactBox.style.opacity === '0'){
+        aboutBox.style.opacity = "100%";
+    }
+    else{
     resumeBox.style.opacity = 0;
     contactBox.style.opacity = 0;
-    aboutBox.style.opacity = "100%";
+    setTimeout(function(){aboutBox.style.opacity = "100%";},500);
+    }
 });
 
 resumeBoxVisibility.addEventListener('click',function(){
     aboutBox.style.opacity = 0;
     contactBox.style.opacity = 0;
-    resumeBox.style.opacity = "100%";
+    setTimeout(function(){resumeBox.style.opacity = "100%";},500);
 });
 
 contactBoxVisibility.addEventListener('click',function(){
     aboutBox.style.opacity = 0;
     resumeBox.style.opacity = 0;
-    contactBox.style.opacity = "100%";
+    setTimeout(function(){contactBox.style.opacity = "100%";},500);
 });
